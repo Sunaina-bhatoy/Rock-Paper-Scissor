@@ -137,6 +137,8 @@ function isWinner(results) {
     return results[0].beats === results[1].name;
 }
 
+let yourScore=0;
+let  computerScore=0;
 function updateScore(yourPoint, computerPoint) {
     yourScore += yourPoint;
     computerScore += computerPoint;
