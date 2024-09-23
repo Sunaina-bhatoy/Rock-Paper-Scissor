@@ -339,14 +339,15 @@ ul li::marker {
   display: flex;
   margin: 50px auto;
   width:700px;
-  height:50vh;
   flex-direction: column;
 }
 .trophy{
+    width:40%;
   object-fit: contain;
   margin-top: -140px;
 }
 .star{
+    width:50%;
   object-fit: contain;
 }
 .animation-text{
